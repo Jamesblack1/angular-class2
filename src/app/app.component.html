@@ -1,0 +1,9 @@
+<h1> {{title}} </h1>
+<p> {{tecnologias}}</p>
+
+<input type="text" [value]="title" (input) ="title = test.value" #test/>
+
+<button (click)="verData()"> Ver data</button>
+
+<app-home></app-home>
+<router-outlet></router-outlet>
